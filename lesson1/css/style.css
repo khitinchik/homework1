@@ -1,0 +1,238 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: orangered; /* Здесь вы можете изменить цвет на тот, который вам нужен */
+}
+header {
+  width: 100%;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: black;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav a {
+  font-size: 20px;
+  text-decoration: none;
+  color: orangered;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+/* При наведении на ссылки меняем цвет */
+header nav a:hover {
+  color: yellow;
+}
+.custom-button {
+  background-color: black;
+  font-size: 20px;
+  /* text-decoration: none; */
+  color: orangered;
+  margin-right: 10px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.logo img {
+  width: 90px; /* Ширина логотипа */
+  height: 80px; /* Высота логотипа */
+  padding-left: 10px; /* Отступ слева */
+}
+/* .company-name{
+  float: right; Размещение элемента слева 
+  font-size: 24px;  Размер шрифта 
+  color: orangered;  Цвет текста 
+  font-weight: bold; 
+  padding: 0;
+  margin-top: 60px;  Изменение отступа сверху} */
+
+.telegram-icon {
+  width: 30px; /* Устанавливаем ширину изображения */
+  height: 30px; /* Устанавливаем высоту изображения */
+}
+
+.greet__title {
+  font-size: 30px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.header__img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  display: block;
+  margin: 0;
+}
+
+.header__card {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header__block {
+  width: 23%;
+  margin: 2% 1%;
+  border-radius: 15px;
+  border: 1.5px solid black;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  margin-bottom: 15px;
+}
+
+li > p {
+  color: black;
+  font-size: 16px;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.check-item {
+  font-size: 18px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 20px; /* Отступ слева */
+  display: flex;
+  margin-bottom: 0;
+}
+.check-item > p {
+  font-weight: bold;
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 20px;
+  display: flex;
+  font-weight: bold;
+  flex: 1; /* Выравниваем элементы */
+  letter-spacing: 1px; /* Увеличьте расстояние между буквами на 0.5 пикселя */
+}
+
+.check-item > p::before {
+  content: "✓";
+  margin-right: 10px;
+  color: black;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.custom-paragraph {
+  font-size: 21px;
+  padding-right: 50px; /* Отступ слева */
+  margin-bottom: 0; /* Убрать отступ снизу */
+  text-align: right;
+  font-weight: bold;
+  color: black;
+}
+.factory {
+  background-color: orangered; /* Фоновый цвет формы */
+  padding: 20px; /* Отступы вокруг формы */
+  border: 1px solid orangered; /* Рамка вокруг формы */
+  border-radius: 20px; /* Закругление углов формы */
+  max-width: 400px; /* Максимальная ширина формы */
+  font-weight: bold;
+  float: right;
+}
+.factory input[type="name"],
+.factory input[type="tel"],
+.factory input[type="email"],
+.factory input[type="datetime-local"],
+.factory button[type="submit"],
+.factory button[type="reset"] {
+  font-weight: bold;
+  width: 100%; /* Растягиваем текстовые поля на всю ширину формы */
+  padding: 10px; /* Отступы внутри текстовых полей */
+  margin-bottom: 10px; /* Отступ между текстовыми полями */
+  border: 1px solid black; /* Рамка вокруг текстовых полей */
+  border-radius: 15px; /* Закругление углов рамки текстовых полей */
+  background-color: orangered; /* Цвет фона текстовых полей */
+}
+
+.title {
+  padding: 10px;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.skills__icon img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  display: block;
+  margin: 0;
+}
+
+.skills__wrapper {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills__block {
+  width: 23%;
+  margin: 2% 1%;
+  border-radius: 15px;
+  border: 1.5px solid black;
+  padding: 20px;
+}
+
+.header__card {
+  padding: 40px 30px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  max-width: 350px;
+  max-height: 350px;
+  top: 365px;
+  left: 50%;
+  transform: translateX(50%);
+  border-radius: 25px;
+  box-shadow: 0 0 10px 1px #000;
+  transition: background-color 0.5s ease-in-out, transform 0.5s ease-in-out,
+    box-shadow 0.5s ease-in-out;
+}
+
+.header__card:hover {
+  background-color: rgba(0, 0, 0, 0.102); /* Новый цвет фона при наведении */
+  transform: scale(1.1);
+  box-shadow: 0 0 30px rgba(251, 255, 0, 0.8); /* Эффект тени при наведении */
+}
+
+.header__card span {
+  display: inline-block;
+  transition: opacity 0.5s ease-in-out;
+  
+
+}
+.company-name{
+  color: orangered;
+}
+
+.header__img {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+  box-shadow: 0 0 3px 1px #000;
+}
+.header__wrapper {
+  margin-left: 20px;
+  width: 350px;
+  height: 100%;
+}
