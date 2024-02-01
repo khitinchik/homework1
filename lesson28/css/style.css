@@ -1,0 +1,41 @@
+.some-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 100;
+    font-style: italic;
+
+}
+.some-text-1{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 2000;
+    font-style: initial;
+    text-decoration-line: line-through;
+    
+}
+.some-text-2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 100;
+    font-style: italic;
+}
+.some-text-3{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 100;
+    font-style: italic;
+    word-spacing: 30px;
+}
+.some-text-4{
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing:5px;
+
+}
