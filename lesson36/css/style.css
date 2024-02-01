@@ -1,0 +1,197 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block_1 {
+    display: inline-block;
+    background-color: rgb(197, 167, 112);
+    box-sizing: content-box;
+    width: 200px;
+    margin: 10px;
+    /* Добавляем отступы между блоками */
+    padding: 20px;
+    /* добавим отступы внутри блоков */
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 2px rgb(59, 56, 56);
+}
+
+.title_1 {
+    font-size: 16px;
+    margin: 10px;
+    text-align: left;
+}
+
+.block_2 {
+    display: inline-block;
+    background-color: rgb(197, 167, 112);
+    box-sizing: content-box;
+    width: 200px;
+    margin: 10px;
+    /* Добавляем отступы между блоками */
+    padding: 20px;
+    /* добавим отступы внутри блоков */
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 2px rgb(59, 56, 56);
+}
+
+.title_2 {
+    font-size: 16px;
+    margin: 10px;
+    text-align: left;
+}
+
+.block_3 {
+    display: inline-block;
+    background-color: rgb(197, 167, 112);
+    box-sizing: content-box;
+    width: 200px;
+    margin: 10px;
+    /* Добавляем отступы между блоками */
+    padding: 20px;
+    /* добавим отступы внутри блоков */
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 2px rgb(59, 56, 56);
+}
+
+.title_3 {
+    font-size: 16px;
+    margin: 10px;
+    text-align: left;
+}
+
+
+.block_4 {
+    display: inline-block;
+    background-color: rgb(197, 167, 112);
+    box-sizing: content-box;
+    width: 200px;
+    margin: 10px;
+    /* Добавляем отступы между блоками */
+    padding: 20px;
+    /* добавим отступы внутри блоков */
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 2px rgb(59, 56, 56);
+}
+
+.title_4 {
+    font-size: 16px;
+    margin: 10px;
+    text-align: left;
+}
+
+
+.block_5 {
+    display: inline-block;
+    background-color: rgb(197, 167, 112);
+    box-sizing: content-box;
+    width: 200px;
+    margin: 10px;
+    /* Добавляем отступы между блоками */
+    padding: 20px;
+    /* добавим отступы внутри блоков */
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 2px rgb(59, 56, 56);
+}
+
+.title_5 {
+    font-size: 16px;
+    margin: 10px;
+    text-align: left;
+}
+
+.block_6 {
+    display: inline-block;
+    background-color: rgb(197, 167, 112);
+    box-sizing: content-box;
+    width: 200px;
+    margin: 10px;
+    /* Добавляем отступы между блоками */
+    padding: 20px;
+    /* добавим отступы внутри блоков */
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 2px rgb(59, 56, 56);
+}
+
+.title_6 {
+    font-size: 16px;
+    margin: 10px;
+    text-align: left;
+}
+
+
+.block_7 {
+    display: inline-block;
+    background-color: rgb(197, 167, 112);
+    box-sizing: content-box;
+    width: 200px;
+    margin: 10px;
+    /* Добавляем отступы между блоками */
+    padding: 20px;
+    /* добавим отступы внутри блоков */
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 2px rgb(59, 56, 56);
+}
+
+.title_7 {
+    font-size: 16px;
+    margin: 10px;
+    text-align: left;
+}
+
+.block_8 {
+    display: inline-block;
+    background-color: rgb(197, 167, 112);
+    box-sizing: content-box;
+    width: 200px;
+    margin: 10px;
+    /* Добавляем отступы между блоками */
+    padding: 20px;
+    /* добавим отступы внутри блоков */
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 2px rgb(59, 56, 56);
+}
+
+.title_8 {
+    font-size: 16px;
+    margin: 10px;
+    text-align: left;
+}
+
+.block_9 {
+    display: inline-block;
+    background-color: rgb(197, 167, 112);
+    box-sizing: content-box;
+    width: 200px;
+    margin: 10px;
+    /* Добавляем отступы между блоками */
+    padding: 20px;
+    /* добавим отступы внутри блоков */
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 2px rgb(59, 56, 56);
+}
+
+.title_9 {
+    font-size: 16px;
+    margin: 10px;
+    text-align: left;
+}
+
+.block_10 {
+    display: inline-block;
+    background-color: rgb(197, 167, 112);
+    box-sizing: content-box;
+    width: 200px;
+    margin: 10px;
+    /* Добавляем отступы между блоками */
+    padding: 20px;
+    /* добавим отступы внутри блоков */
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 2px rgb(59, 56, 56);
+}
+
+.title_10 {
+    font-size: 16px;
+    margin: 10px;
+    text-align: left;
+}
